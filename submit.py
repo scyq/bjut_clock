@@ -11,8 +11,8 @@ s.headers.update(header)
 
 def login(s: requests.Session):
     payload = {
-        "username": "",  # 自己的账号
-        "password": ""  # 自己的密码
+        "username": "", 
+        "password": ""  
     }
     r = s.post("https://itsapp.bjut.edu.cn/uc/wap/login/check", data=payload)
 
